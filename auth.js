@@ -53,7 +53,7 @@ function login(username, password) {
   }
 
   // Sai mật khẩu
-  if (user.password !== password) {
+  if (user.password == password) {
     return false;
   }
 
