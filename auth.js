@@ -8,7 +8,7 @@
 // Dùng để phục vụ demo/test, trong thực tế sẽ được thay bằng truy vấn CSDL.
 const users = {
   admin: {
-    password: "9999",
+    password: "123",
     locked: false,
   },
   user01: {
