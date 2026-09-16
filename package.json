@@ -1,0 +1,13 @@
+{
+  "name": "auth-testing-demo",
+  "version": "1.0.0",
+  "description": "Demo Smoke Test & Regression Test cho module auth.js (71ITSE41203)",
+  "main": "auth.js",
+  "scripts": {
+    "test:smoke": "jest auth.smoke.test.js",
+    "test:regression": "jest auth.regression.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
