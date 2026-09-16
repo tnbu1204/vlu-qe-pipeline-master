@@ -8,7 +8,7 @@
 // Dùng để phục vụ demo/test, trong thực tế sẽ được thay bằng truy vấn CSDL.
 const users = {
   admin: {
-    password: "123",
+    password: "9999",
     locked: false,
   },
   user01: {
@@ -53,7 +53,7 @@ function login(username, password) {
   }
 
   // Sai mật khẩu
-  if (user.password == password) {
+  if (user.password !== password) {
     return false;
   }
 
