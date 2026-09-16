@@ -57,7 +57,7 @@ function login(username, password) {
     return false;
   }
 
-  return true;
+  return false;
 }
 
 module.exports = { login, users };
